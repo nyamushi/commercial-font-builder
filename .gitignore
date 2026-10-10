@@ -1,0 +1,22 @@
+# Generated font builds and QA artifacts
+build/
+*.ttf
+*.otf
+*.woff
+*.woff2
+*.pdf
+*.png
+
+# Local project and tool state
+.env
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.vscode/
+.idea/
+
+# OS metadata
+.DS_Store
+Thumbs.db
+Desktop.ini

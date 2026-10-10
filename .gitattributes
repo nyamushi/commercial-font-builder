@@ -1,0 +1,15 @@
+# 统一换行符，避免跨平台协作时反复出现「文件未改却显示已修改」
+* text=auto eol=lf
+
+# 字体二进制文件不做任何转换
+*.ttf   binary
+*.otf   binary
+*.woff  binary
+*.woff2 binary
+*.ufo   binary
+*.sfd   binary
+
+# Windows 脚本保留 CRLF
+*.ps1   text eol=crlf
+*.bat   text eol=crlf
+*.cmd   text eol=crlf
