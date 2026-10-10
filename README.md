@@ -1,5 +1,7 @@
 # Commercial Font Builder
 
+> **English** | [简体中文](README.zh-CN.md)
+
 A reusable agent skill for developing an installable, commercially deliverable desktop font from a design brief, starting with glyph design rather than existing font assets.
 
 The default workflow targets a modern rounded Latin font with letters, digits, and punctuation, compiled as TTF/OTF and validated on Windows. It covers design specification, representative glyphs, editable source management, compilation, font-table QA, Windows installation visibility, and commercial-delivery readiness.
@@ -22,6 +24,7 @@ The default workflow targets a modern rounded Latin font with letters, digits, a
 commercial-font-builder/
 ├── SKILL.md
 ├── README.md
+├── README.zh-CN.md
 ├── LICENSE
 ├── references/
 │   ├── design-brief-template.md
